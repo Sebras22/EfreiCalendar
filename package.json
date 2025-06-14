@@ -1,0 +1,19 @@
+{
+    "name": "myefrei-planning-bot",
+    "version": "1.0.0",
+    "description": "Discord bot to display MyEfrei planning from webcal link",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "Your Name",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+      "discord.js": "^14.x.x",
+      "dotenv": "^16.x.x",
+      "node-fetch": "^3.x.x",
+      "ical.js": "^2.1.0"
+    }
+  }

@@ -1,0 +1,23 @@
+# Fichiers et dossiers générés par Node.js
+node_modules/
+npm-debug.log*
+.DS_Store # macOS specific file, useful to ignore
+
+# Fichiers de configuration sensibles
+.env
+
+# Fichiers de log ou de données temporaires (si vous en créez)
+logs/
+*.log
+*.tmp
+*.bak
+
+# Fichiers spécifiques aux éditeurs de code courants
+.vscode/ # VSCode settings and extensions
+.idea/   # IntelliJ IDEA / WebStorm
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de build ou de distribution (si votre projet en génère)
+dist/
+build/
